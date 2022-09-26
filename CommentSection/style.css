@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text]:invalid {
+    border: rgb(3, 2, 3) solid 1px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.container>label {
+    text-align: center;
+}
+
+#comment {
+    background-color: rgb(64, 76, 99);
+    color: white;
+}
+
+#addComments {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.wrapper>button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: darkblue;
+    border: 1px solid rgba(37, 33, 36, 0.877);
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: #7f8c8d;
+    padding: 2em;
+    padding-top: 0;
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(44, 21, 214);
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+#resultDiv{
+    line-height: 1em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.selected{
+    padding: 0 0 0 0;
+    border-bottom: black 5px solid;
+}
+
+#colorDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

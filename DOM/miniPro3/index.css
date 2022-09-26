@@ -1,0 +1,55 @@
+body{
+    background: url('pro.jfif') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.que{
+    width: 65%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+.que .que-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.que .content-container .question{
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+
+    position: relative;
+}
+.que .content-container .question::after{
+    content: '+';
+
+    position: absolute;
+    right: -5px;
+}
+
+.que .content-container .answer{
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+/* Js styling link */
+.que .content-container.active .answer{
+    height: 150px;
+}
+.que .content-container.active .question{
+    font-size: 18px;
+    transition: .5s;
+}
+.que .content-container.active .question::after{
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
+}
