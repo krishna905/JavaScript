@@ -176,13 +176,13 @@ console.log(sum1);
 
 //example
 let person = {
-    firstName: 'John',
-    lastName: 'Doe'
+    firstName: 'Sindhu',
+    lastName: 'Kri'
 };
 
 (function () {
     console.log(person.firstName + ' ' + person.lastName);
-})(person); //John Doe
+})(person); //Sindhu Kri
 
 //Anonymous functions are functions without names.
 //Anonymous functions can be used as an argument to other functions or as an immediately invoked function execution.
