@@ -49,6 +49,7 @@ function type(){
     arr.forEach(element=>{
         console.log(element);
     })
+    
 
 }
 type();
